@@ -20,7 +20,7 @@ $ npm install time
 ```
 ## Configuration
 
-open the code and input your instagram username ( line 20 )  and password ( line 21 ) & your chromedriver path (line 58) (chromedriver.exe)
+open the code and input your instagram username ( line 20 )  and password ( line 21 ) & your chromedriver path (line 59) (chromedriver.exe)
 
 ## How to start ?
 
