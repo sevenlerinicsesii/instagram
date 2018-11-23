@@ -1,5 +1,5 @@
 ## This code :
-Approve each follow request quickly (approximately 5-15 seconds per request, if you want to decrease it you can delete line 33 )
+Approve each follow request quickly (approximately 5-15 seconds per request, if you want to decrease it you can delete line 38 )
 
 ## Author
 
