@@ -1,5 +1,5 @@
 ## This code :
-Approve each follow request quickly (approximately 5-15 seconds per request, if you want to decrease it you can delete line 26 )
+Approve each follow request quickly (approximately 5-15 seconds per request, if you want to decrease it you can delete line 33 )
 
 ## Author
 
@@ -16,7 +16,7 @@ $ npm install time
 ```
 ## Configuration
 
-open the code and input your instagram username ( line 13 )  and password ( line 14 ) & your chromedriver path (line 47) (chromedriver.exe)
+open the code and input your instagram username ( line 20 )  and password ( line 21 ) & your chromedriver path (line 54) (chromedriver.exe)
 
 ## How to start ?
 
