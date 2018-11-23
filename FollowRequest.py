@@ -36,6 +36,7 @@ def Approve():
                     incr += 10
                 time.sleep(3) # 3 seconds (for each request) is recommended else you can be banned
             print("Number of approved follow:", i)
+            Approve()
         except:
             driver.refresh()
             time.sleep(4)
