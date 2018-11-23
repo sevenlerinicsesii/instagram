@@ -3,11 +3,15 @@ Approve each follow request quickly (approximately 5-15 seconds per request, if 
 
 ## Author
 
-author = BEKTES FURKAN 
+author = BEKTES FURKAN
+
 mail : bektes.fukan.pro@gmail.com
+
 author's instagram : @furkan5037 & @sevenlerinicsesii 
 
 ## Install
+
+Firstly you need python :)
 
 ```
 $ npm install selenium
