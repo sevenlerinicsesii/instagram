@@ -17,7 +17,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import WebDriverException
 
-username = 'your username' """ without @ """
+username = 'your username' # without @ 
 password = 'your password'
 
 # Function that approve each follow request
@@ -31,7 +31,7 @@ def Approve():
                 btn.click()
                 i += 1
                 time.sleep(3) # 3 seconds (for each request) is recommended else you can be banned
-            print(f'Number of approved follow : {i}.')
+            print(f'Number of approved follow : ', i)
         except:
             driver.refresh()
             time.sleep(4)
@@ -51,7 +51,7 @@ options.add_argument('--disable-gpu')
 options.add_argument('start-maximized')
 options.add_argument('disable-infobars')
 options.add_argument("--disable-extensions")
-driver = webdriver.Chrome(executable_path='Your chrome path', chrome_options=options) # like /Users/xxxx/Desktop/chromedriver', chrome_options=options
+driver = webdriver.Chrome(executable_path='Your chrome path', chrome_options=options) # like '/Users/xxxx/Desktop/chromedriver'
 
 getDriver = ("https://www.instagram.com/accounts/activity?followRequests=")
 try:
@@ -66,7 +66,7 @@ try:
     driver.find_element_by_xpath("//input[@name='password']").send_keys(password)
     driver.find_element_by_xpath("//button[contains(.,'Log in')]").click()
     print("Connection Established to your instagram")
-    time.sleep(4)
+    time.sleep(5)
     Approve()
 except:
     print("Connection NOT Established. Please check your network")
