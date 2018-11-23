@@ -22,16 +22,20 @@ password = 'your password'
 
 # Function that approve each follow request
 def Approve():
-    print("Follower Requests are approving")
+    print("Follow Requests are approving")
     i = 0 # Number of approved follow
+    incr = 0 # increment
     if driver.find_elements_by_xpath("//button[contains(.,'Approve')]"):
         elements = driver.find_elements_by_xpath("//button[contains(.,'Approve')]")
         try:
             for btn in elements:
                 btn.click()
                 i += 1
+                if i == incr:
+                    print("Number of approved follow:", i)
+                    incr += 10
                 time.sleep(3) # 3 seconds (for each request) is recommended else you can be banned
-            print(f'Number of approved follow : ', i)
+            print("Number of approved follow:", i)
         except:
             driver.refresh()
             time.sleep(4)
