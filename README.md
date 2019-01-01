@@ -14,9 +14,9 @@ author's instagram : @furkan5037 & @sevenlerinicsesii
 Firstly you need python :)
 
 ```
-$ npm install selenium
-$ npm install chromedriver
-$ npm install time
+$ pip install selenium
+$ pip install chromedriver
+$ pip install time
 ```
 ## Configuration
 
