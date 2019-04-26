@@ -7,15 +7,12 @@ author = BEKTES FURKAN
 
 mail : bektes.fukan.pro@gmail.com
 
-author's instagram : @furkan5037 & @sevenlerinicsesii 
+author's instagram : @jesuisfurkan
 
 ## Install
 
-Firstly you need python :)
-
+Firstly you need python, selenium, chromedriver
 ```
-$ pip install selenium
-$ pip install chromedriver
 $ pip install time
 ```
 ## Configuration
