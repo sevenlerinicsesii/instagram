@@ -5,7 +5,7 @@
 # File name: FollowRequests.py                           #
 # Author = BEKTES FURKAN                                 #
 # Mail : 'bektes.fukan.pro@gmail.com'                    #
-# Author's instagram : @furkan5037 & @sevenlerinicsesii  #
+# Author's instagram : @jesuisfurkan                     #
 ##########################################################
 
 import time
