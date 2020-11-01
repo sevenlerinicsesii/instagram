@@ -1,13 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-##########################################################
-# File name: FollowRequests.py                           #
-# Author = BEKTES FURKAN                                 #
-# Mail : 'bektes.fukan.pro@gmail.com'                    #
-# Author's instagram : @jesuisfurkan                     #
-##########################################################
-
 import time
 from time import sleep
 from selenium import webdriver
