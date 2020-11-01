@@ -1,14 +1,6 @@
 ## This code :
 Approve each follow request quickly (approximately 5-15 seconds per request, if you want to decrease it you can delete line 37 )
 
-## Author
-
-author = BEKTES FURKAN
-
-mail : bektes.fukan.pro@gmail.com
-
-author's instagram : @jesuisfurkan
-
 ## Install
 
 Firstly you need python, selenium, chromedriver
